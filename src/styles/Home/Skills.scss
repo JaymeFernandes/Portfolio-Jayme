@@ -1,0 +1,33 @@
+.header-skill{
+    overflow: hidden;
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+
+    width: 690px;
+    height: 70px;
+
+
+    .option{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        border: 2px solid;
+        border-radius: 40px;
+
+        min-height: 70px;
+        min-width: 70px;
+
+        img{
+            width: 40px;
+            height: 40px;
+        }
+
+        i{
+            font-size: 20px;
+        }
+    }
+
+    
+}

@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+
+$Text-Color: #f0f0f0;
+$Color-Cabaret:#D64670; 
+$Color-Cabaret-Shade: #F06893;
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+
+    user-select: none;
+
+    padding: 24px 50px;
+
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+
+    li{
+        list-style-type: none;
+    }
+
+
+    .header-logo{
+        
+
+        transform: scale(1.0);
+        transition: opacity 0.5s ease, transform 0.3s ease;
+
+        a{
+            display: flex;
+            align-items: center;
+
+            text-decoration: none;
+
+            i{
+                font-size: 30px;
+                color: $Color-Cabaret;
+            }
+    
+            p{
+                font-family: "Ubuntu Sans Mono", monospace;
+                font-weight: 700;
+                font-size: 20px;
+    
+                color: $Text-Color;
+            }
+        }
+    }
+
+    .header-logo--hover{
+        display: flex;
+        align-items: center;
+        border-bottom: solid $Color-Cabaret 2px;
+
+        transform: scale(1.1);
+        transition: opacity 0.5s ease, transform 0.8s ease;
+
+        a{
+            display: flex;
+            align-items: center;
+
+            text-decoration: none;
+            i{
+                font-size: 30px;
+                color: $Text-Color;
+            }
+    
+            p{
+                font-family: "Ubuntu Sans Mono", monospace;
+                font-weight: 700;
+                font-size: 20px;
+    
+                
+    
+                color: $Color-Cabaret-Shade;
+            }
+        }
+    }
+
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        gap: 100px;
+
+        a{
+            color: $Text-Color;
+            text-decoration: none;
+
+            &:hover{
+                color: $Color-Cabaret-Shade;
+            }
+        }
+
+        
+    }
+
+    .header-oprions{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        gap: 90px;
+    
+        
+
+        .header-action{
+
+            .user-actions{
+                display: flex;
+                align-items: center;
+                gap: 30px;
+
+                .actions-item{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    border: #f0f0f0 solid 2px;
+                    border-radius: 20px;
+
+                    a{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    
+                        height: 25px;
+                        width: 25px;
+                        color: $Text-Color;
+                        font-size: 20px;
+
+                        text-decoration: none;
+
+                        i:hover{
+                            color: #D64670;
+                        }
+                    }
+                }
+    
+                
+            }
+    
+        }
+
+
+    }
+
+    
+
+    
+
+
+}
+

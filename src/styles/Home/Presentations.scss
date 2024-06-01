@@ -1,0 +1,103 @@
+$Text-Color: #f0f0f0;
+$Color-Cabaret:#D64670; 
+$Color-Cabaret-Shade: #F06893;
+
+.container-49XSF{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.7) 90%),  url("../../assets/img/banner-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 110vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .presentation{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0px 220px;
+        gap: 20px;
+
+        .about{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            .description{
+
+                height: 170px;
+                width: 690px;
+                border-bottom: solid $Color-Cabaret 2px;
+    
+                h2{
+                    font-size: 33px;
+                    font-weight: 900;
+    
+                    display: flex;
+                    gap: 10px;
+    
+                    p{
+                        font-weight: 200;
+                        font-size: 35px;
+    
+                        animation: cursor_animation 400ms infinite alternate;
+                    }
+                }
+    
+                
+    
+                p{
+                    font-size: 18px;
+                    font-weight: 200;
+    
+                    
+                }
+    
+                span{
+                    color: $Color-Cabaret-Shade;
+                }
+            }
+        }
+        
+
+        .description-image{
+
+            height: 500px;
+            width: 500px;
+            
+            
+            img{
+                height: 400px;
+
+                transform: translateY(0);
+                animation: moveUpDown 10s infinite alternate;
+            }
+
+            
+        }
+
+        
+    }
+}
+
+@keyframes moveUpDown {
+    0%{
+        transform: translateY(10%);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(10%);
+    }
+}
+
+@keyframes cursor_animation{
+    0%{
+        opacity: -1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
