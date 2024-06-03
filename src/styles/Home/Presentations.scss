@@ -3,14 +3,23 @@ $Color-Cabaret:#D64670;
 $Color-Cabaret-Shade: #F06893;
 
 .container-49XSF{
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.7) 90%),  url("../../assets/img/banner-bg.png");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.9) 90%),  url("../../assets/img/banner-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 110vh;
 
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    gap: 70px;
+
+
+    height: 101vh;
+
+    border-bottom: 2px solid $Color-Cabaret-Shade;
+
+    
 
     .presentation{
         display: flex;
@@ -32,7 +41,7 @@ $Color-Cabaret-Shade: #F06893;
     
                 h2{
                     font-size: 33px;
-                    font-weight: 900;
+                    font-weight: 800;
     
                     display: flex;
                     gap: 10px;
@@ -55,7 +64,13 @@ $Color-Cabaret-Shade: #F06893;
                 }
     
                 span{
-                    color: $Color-Cabaret-Shade;
+                    background: linear-gradient(45deg, #A02A87 0%, #2689c4 100%);
+                    font-weight: 900;
+
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                    color: transparent;
                 }
             }
         }
@@ -78,6 +93,19 @@ $Color-Cabaret-Shade: #F06893;
         }
 
         
+    }
+
+    .Chevro-Down{
+        
+
+        i{
+            font-size: 50px;
+            animation: moveUpDown 4s infinite alternate;
+
+            &:hover{
+                color: $Color-Cabaret;
+            }
+        }
     }
 }
 

@@ -9,13 +9,16 @@ $Color-Cabaret-Shade: #F06893;
     display: flex;
     justify-content: space-between;
 
-    user-select: none;
-
-    padding: 24px 50px;
-
-    width: 100%;
     position: fixed;
     z-index: 10;
+
+
+    user-select: none;
+
+
+    width: 100%;
+    padding: 24px 50px;
+
 
     li{
         list-style-type: none;
@@ -23,10 +26,9 @@ $Color-Cabaret-Shade: #F06893;
 
 
     .header-logo{
-        
-
         transform: scale(1.0);
         transition: opacity 0.5s ease, transform 0.3s ease;
+
 
         a{
             display: flex;
@@ -52,6 +54,7 @@ $Color-Cabaret-Shade: #F06893;
     .header-logo--hover{
         display: flex;
         align-items: center;
+        
         border-bottom: solid $Color-Cabaret 2px;
 
         transform: scale(1.1);

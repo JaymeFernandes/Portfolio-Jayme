@@ -13,7 +13,6 @@ function Presentation(){
     const toRotate = [ "Web Developer." , "Software Developer.", "Back-End.", "ASP.NET Developer." ];
 
     useEffect(() => {
-        
 
         let tick = setInterval(() => {
             Tick();
@@ -52,7 +51,7 @@ function Presentation(){
             <div className="presentation">
                 <div className="about">
                     <div className="description">
-                            <h2>i'm Jayme <span>{Text}</span> <p>|</p></h2>
+                            <h2>I'm Jayme <span>{Text}</span> <p>|</p></h2>
 
                             <p>
                                 I have a great passion for programming, and my focus is always on improving my knowledge in the field <br/>
@@ -65,9 +64,13 @@ function Presentation(){
                 <div className="description-image">
                         <img src={image} />
                 </div>
-                
-                
             </div>
+
+            <div className="Chevro-Down">
+                <i className='bx bxs-chevron-down' ></i>
+            </div>
+
+
             
         </div>
     );
