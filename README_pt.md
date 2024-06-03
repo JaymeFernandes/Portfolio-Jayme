@@ -2,6 +2,8 @@
 
 Este repositório contém o código-fonte do meu portfólio pessoal. Ele foi desenvolvido para exibir meus projetos, habilidades e informações de contato de forma organizada e acessível.
 
+<img height="400" src="./img/portifolio.gif">
+
 <br/>
 
 ## Escolha o idioma 🌐
@@ -16,21 +18,21 @@ Este repositório contém o código-fonte do meu portfólio pessoal. Ele foi des
 
 <br/>
 
-## 📋 Índice
+## Índice 📋
 
-- [📖 Visão Geral](#visão-geral)
-- [💻 Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [⚙️ Instalação](#instalação)
-- [🚀 Uso](#uso)
-- [🤝 Contribuição](#contribuição)
-- [📜 Licença](#licença)
-- [📬 Contato](#contato)
+- [📖 Visão Geral](#visão-geral-📖)
+- [💻 Tecnologias Utilizadas](#tecnologias-utilizadas-💻)
+- [⚙️ Instalação](#instalação-⚙️)
+- [🚀 Uso](#uso-🚀)
+- [🤝 Contribuição](#contribuição-🤝)
+- [📜 Licença](#licença-📜)
+- [📬 Contato](#contato-📬)
 
-## 📖 Visão Geral
+## Visão Geral 📖
 
 Este portfólio foi desenvolvido para apresentar meus projetos e habilidades. Ele inclui uma página inicial com uma visão geral, páginas individuais para cada projeto e uma página de contato.
 
-## 💻 Tecnologias Utilizadas
+## Tecnologias Utilizadas 💻
 
 - **Frontend:**
   - HTML
@@ -40,7 +42,7 @@ Este portfólio foi desenvolvido para apresentar meus projetos e habilidades. El
   - [React](https://reactjs.org/)
   - [Vite](https://vitejs.dev/)
 
-## ⚙️ Instalação
+## Instalação ⚙️
 
 Para rodar este projeto localmente, siga os passos abaixo:
 
@@ -62,11 +64,11 @@ Para rodar este projeto localmente, siga os passos abaixo:
 
 4. Abra o navegador e acesse `http://localhost:3333`.
 
-## 🚀 Uso
+## Uso 🚀
 
 Depois de seguir os passos de instalação, você poderá navegar pelas diferentes seções do portfólio através do menu de navegação. Cada seção contém informações específicas sobre mim, meus projetos e como entrar em contato.
 
-## 🤝 Contribuição
+## Contribuição 🤝
 
 Contribuições são bem-vindas! Se você tem alguma ideia para melhorar este projeto, por favor, abra uma [issue](https://github.com/JaymeFernandes/Portfolio-Jayme/issues) ou envie um pull request.
 
@@ -76,11 +78,11 @@ Contribuições são bem-vindas! Se você tem alguma ideia para melhorar este pr
 4. Push para a branch (`git push origin feature/nova-feature`).
 5. Abra um Pull Request.
 
-## 📜 Licença
+## Licença 📜
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
 
-## 📬 Contato
+## Contato 📬
 
 Para mais informações ou para discutir oportunidades de colaboração, entre em contato comigo através de:
 

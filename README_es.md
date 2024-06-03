@@ -2,6 +2,8 @@
 
 Este repositorio contiene el código fuente de mi portafolio personal. Fue desarrollado para mostrar mis proyectos, habilidades e información de contacto de manera organizada y accesible.
 
+<img height="400" src="./img/portifolio.gif">
+
 <br>
 
 # Selector de Idioma 🌐
@@ -16,21 +18,21 @@ Este repositorio contiene el código fuente de mi portafolio personal. Fue desar
 
 <br/>
 
-## 📋 Tabla de Contenidos
+## Tabla de Contenidos 📋
 
-- [📖 Visión General](#visión-general)
-- [💻 Tecnologías Utilizadas](#tecnologías-utilizadas)
-- [⚙️ Instalación](#instalación)
-- [🚀 Uso](#uso)
-- [🤝 Contribución](#contribución)
-- [📜 Licencia](#licencia)
-- [📬 Contacto](#contacto)
+- [📖 Visión General](#visión-general-📖)
+- [💻 Tecnologías Utilizadas](#tecnologías-utilizadas-💻)
+- [⚙️ Instalación](#instalación-️⚙️)
+- [🚀 Uso](#uso-🚀)
+- [🤝 Contribución](#contribución-🤝)
+- [📜 Licencia](#licencia-📜)
+- [📬 Contacto](#contacto-📬)
 
-## 📖 Visión General
+## Visión General 📖
 
 Este portafolio fue desarrollado para presentar mis proyectos y habilidades. Incluye una página de inicio con una visión general, páginas individuales para cada proyecto y una página de contacto.
 
-## 💻 Tecnologías Utilizadas
+## Tecnologías Utilizadas 💻
 
 - **Frontend:**
   - HTML
@@ -40,7 +42,7 @@ Este portafolio fue desarrollado para presentar mis proyectos y habilidades. Inc
   - [React](https://reactjs.org/)
   - [Vite](https://vitejs.dev/)
 
-## ⚙️ Instalación
+## Instalación ⚙️
 
 Para ejecutar este proyecto localmente, sigue estos pasos:
 
@@ -62,11 +64,11 @@ Para ejecutar este proyecto localmente, sigue estos pasos:
 
 4. Abre tu navegador y ve a `http://localhost:3333`.
 
-## 🚀 Uso
+## Uso 🚀
 
 Después de seguir los pasos de instalación, podrás navegar por las diferentes secciones del portafolio a través del menú de navegación. Cada sección contiene información específica sobre mí, mis proyectos y cómo ponerse en contacto.
 
-## 🤝 Contribución
+## Contribución 🤝
 
 ¡Las contribuciones son bienvenidas! Si tienes alguna idea para mejorar este proyecto, por favor, abre una [issue](https://github.com/JaymeFernandes/Portfolio-Jayme/issues) o envía un pull request.
 
@@ -76,11 +78,11 @@ Después de seguir los pasos de instalación, podrás navegar por las diferentes
 4. Haz push a la rama (`git push origin feature/nueva-caracteristica`).
 5. Abre un Pull Request.
 
-## 📜 Licencia
+## Licencia 📜
 
 Este proyecto está licenciado bajo la [Licencia MIT](LICENSE).
 
-## 📬 Contacto
+## Contacto 📬
 
 Para más información o para discutir oportunidades de colaboración, contáctame en:
 

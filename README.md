@@ -2,6 +2,8 @@
 
 This repository contains the source code of my personal portfolio. It was developed to showcase my projects, skills, and contact information in an organized and accessible way.
 
+<img height="400" src="./img/portifolio.gif">
+
 <br>
 
 # Choose Language 🌐
@@ -18,19 +20,19 @@ This repository contains the source code of my personal portfolio. It was develo
 
 ## 📋 Table of Contents
 
-- [📖 Overview](#overview)
-- [💻 Technologies Used](#technologies-used)
-- [⚙️ Installation](#installation)
-- [🚀 Usage](#usage)
-- [🤝 Contribution](#contribution)
-- [📜 License](#license)
-- [📬 Contact](#contact)
+- [📖 Overview](#overview-📖)
+- [💻 Technologies Used](#technologies-used-💻)
+- [⚙️ Installation](#installation-⚙️)
+- [🚀 Usage](#usage-🚀)
+- [🤝 Contribution](#contribution-🤝)
+- [📜 License](#license-📜)
+- [📬 Contact](#contact-📬)
 
-## 📖 Overview
+## Overview 📖
 
 This portfolio was developed to present my projects and skills. It includes a homepage with an overview, individual pages for each project, and a contact page.
 
-## 💻 Technologies Used
+## Technologies Used 💻
 
 - **Frontend:**
   - HTML
@@ -40,7 +42,7 @@ This portfolio was developed to present my projects and skills. It includes a ho
   - [React](https://reactjs.org/)
   - [Vite](https://vitejs.dev/)
 
-## ⚙️ Installation
+## Installation ⚙️
 
 To run this project locally, follow these steps:
 
@@ -62,11 +64,11 @@ To run this project locally, follow these steps:
 
 4. Open your browser and go to `http://localhost:3333`.
 
-## 🚀 Usage
+## Usage 🚀
 
 After following the installation steps, you can navigate through the different sections of the portfolio using the navigation menu. Each section contains specific information about me, my projects, and how to get in touch.
 
-## 🤝 Contribution
+## Contribution 🤝
 
 Contributions are welcome! If you have any ideas to improve this project, please open an [issue](https://github.com/JaymeFernandes/Portfolio-Jayme/issues) or submit a pull request.
 
@@ -76,11 +78,11 @@ Contributions are welcome! If you have any ideas to improve this project, please
 4. Push to the branch (`git push origin feature/new-feature`).
 5. Open a Pull Request.
 
-## 📜 License
+## License 📜
 
 This project is licensed under the [MIT License](LICENSE).
 
-## 📬 Contact
+## Contact 📬
 
 For more information or to discuss collaboration opportunities, contact me at:
 
