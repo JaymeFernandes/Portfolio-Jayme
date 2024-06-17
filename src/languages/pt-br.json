@@ -1,0 +1,19 @@
+{
+    "NavBar": {
+      "NavHome": "Início",
+      "NavProjects": "Projetos"
+    },
+    "Home": {
+      "Description": {
+        "Title": "Eu sou Jayme um",
+        "Options": [
+          "Desenvolvedor Web.",
+          "Desenvolvedor de Software.",
+          "Back-End.",
+          "Desenvolvedor ASP.NET."
+        ],
+        "Text": "Tenho uma grande paixão por programação, e meu foco está sempre em melhorar meu conhecimento na área."
+      }
+    }
+}
+  

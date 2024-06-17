@@ -1,16 +1,28 @@
-import { useState } from 'react';
+
+// Css
 import '../styles/NavBar.scss'
 
-function Navegation(){
-    const [isLogoHovered, LogoSetColor] = useState(false);
+// Hooks
+import { NavBarHook } from '../hooks/NavBar';
 
-    const LogoMouseEnter = () => {
-        LogoSetColor(true);
-    }
+interface PropsLanguage {
+    setlanguage: {
+        NavBar: {
+            NavHome: string;
+            NavProjects: string;
+        };
+        Home: {
+            Description: {
+                Title: string;
+                Options: string[];
+                Text: string;
+            };
+        };
+    };
+}
 
-    const LogoMouseLeave = () => {
-        LogoSetColor(false);
-    }
+const Navegation : React.FC<PropsLanguage> = ( { setlanguage }) => {
+    const { isLogoHovered, LogoMouseEnter, LogoMouseLeave} = NavBarHook();
 
     return(
         <div className="header-content">
@@ -24,8 +36,8 @@ function Navegation(){
             
             <div className="header-menu">
                 <ul className="menu">
-                    <li className="menu-item"><a href="#home">Home</a></li>
-                    <li className="menu-item"><a href="#projects">Projects</a></li>
+                    <li className="menu-item"><a href="#home">{setlanguage.NavBar.NavHome}</a></li>
+                    <li className="menu-item"><a href="#projects">{setlanguage.NavBar.NavProjects}</a></li>
                 </ul>
             </div>
 

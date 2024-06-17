@@ -1,0 +1,18 @@
+{
+    "NavBar" : {
+        "NavHome" : "Home",
+        "NavProjects" : "Projects"
+    },
+    "Home" : {
+        "Description" : {
+            "Title" : "I'm Jayme a",
+            "Options" : [
+                "Web Developer.",
+                "Software Developer.",
+                "Back-End.",
+                "ASP.NET Developer."
+            ],
+            "Text" : "I have a great passion for programming, and my focus is always on improving my knowledge in the field"
+        }
+    }
+}

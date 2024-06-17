@@ -1,19 +1,30 @@
 // dependences
+import React from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { createBrowserRouter, createRoutesFromElements, RouterProvider } from "react-router-dom";
 
-// import components
-import NavBar from './components/NavBar'
-import Presentation from './components/Home/Presentation'
-import Skills from './components/Home/Skills'
+
+// import Routers
+import R_Home from './routes/R_Home';
+
 
 // style
 import './styles/app.scss'
 
 function App() {
 
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      <Route>
+        <Route path='/' element={ <R_Home/> } />
+        <Route path="/:lenguage" element={ <R_Home/> } />
+      </Route>
+    )
+  )
+
   return (
     <>
-      <NavBar/>
-      <Presentation/>
+      <RouterProvider router={router} />
     </>
   )
 }
