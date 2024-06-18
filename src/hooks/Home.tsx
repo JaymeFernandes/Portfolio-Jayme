@@ -1,5 +1,6 @@
 
 
+
 import Pt_Br from '../languages/pt-br.json';
 import Es from '../languages/es.json';
 import En from '../languages/en.json';
@@ -8,7 +9,6 @@ import En from '../languages/en.json';
 export function HookHome()
 {
     const opitonsLenguages = [
-        
         {
             name: "en",
             location: En
@@ -22,10 +22,14 @@ export function HookHome()
             location: Pt_Br
         } 
     ]
-    const LoadingLanguage = (lenguage:string) => {
-        var lenguageOption  = opitonsLenguages.find(x => x.name === lenguage);
 
-        if(!lenguageOption) lenguageOption  = opitonsLenguages.find(x => x.name === "en");
+    const LenguageExist = (lenguage:string) => {
+        let temp = opitonsLenguages.find(x => x.name === lenguage)
+        return (temp == null)
+    }
+
+    const LoadingLanguage = (lenguage:string) => {
+        var lenguageOption  = !(LenguageExist(lenguage)) ? opitonsLenguages.find(x => x.name === lenguage) : opitonsLenguages.find(x => x.name === "en");
 
 
         return {
@@ -44,7 +48,10 @@ export function HookHome()
         
     }
     
+    
+    
     return{
-        LoadingLanguage
+        LoadingLanguage,
+        LenguageExist
     };
 }

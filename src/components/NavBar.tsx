@@ -6,22 +6,13 @@ import '../styles/NavBar.scss'
 import { NavBarHook } from '../hooks/NavBar';
 
 interface PropsLanguage {
-    setlanguage: {
-        NavBar: {
-            NavHome: string;
-            NavProjects: string;
-        };
-        Home: {
-            Description: {
-                Title: string;
-                Options: string[];
-                Text: string;
-            };
-        };
+    NavBar: {
+        NavHome: string;
+        NavProjects: string;
     };
 }
 
-const Navegation : React.FC<PropsLanguage> = ( { setlanguage }) => {
+const Navegation : React.FC<PropsLanguage> = ( { NavBar }) => {
     const { isLogoHovered, LogoMouseEnter, LogoMouseLeave} = NavBarHook();
 
     return(
@@ -36,8 +27,8 @@ const Navegation : React.FC<PropsLanguage> = ( { setlanguage }) => {
             
             <div className="header-menu">
                 <ul className="menu">
-                    <li className="menu-item"><a href="#home">{setlanguage.NavBar.NavHome}</a></li>
-                    <li className="menu-item"><a href="#projects">{setlanguage.NavBar.NavProjects}</a></li>
+                    <li className="menu-item"><a href="#home">{NavBar.NavHome}</a></li>
+                    <li className="menu-item"><a href="#projects">{NavBar.NavProjects}</a></li>
                 </ul>
             </div>
 

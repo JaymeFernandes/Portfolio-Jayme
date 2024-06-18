@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 export function PresentationHook(rotate:string[]){
     const [numLoop, Setloop] = useState(0);

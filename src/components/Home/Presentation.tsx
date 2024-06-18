@@ -12,24 +12,18 @@ import { PresentationHook } from '../../hooks/Presentation';
 import React from 'react';
 
 interface PropsLanguage {
-    setlanguage: {
-        NavBar: {
-            NavHome: string;
-            NavProjects: string;
-        };
-        Home: {
-            Description: {
-                Title: string;
-                Options: string[];
-                Text: string;
-            };
+    Home: {
+        Description: {
+            Title: string;
+            Options: string[];
+            Text: string;
         };
     };
 }
 
-const Presentation : React.FC<PropsLanguage> = ( { setlanguage }) => {
+const Presentation : React.FC<PropsLanguage> = ( { Home }) => {
 
-    const { Text } = PresentationHook(setlanguage.Home.Description.Options);
+    const { Text } = PresentationHook(Home.Description.Options);
 
     return (
         <div className="container-49XSF" id='home'>
@@ -37,10 +31,10 @@ const Presentation : React.FC<PropsLanguage> = ( { setlanguage }) => {
             <div className="presentation">
                 <div className="about">
                     <div className="description">
-                            <h2>{setlanguage.Home.Description.Title} <span>{Text}</span> <p>|</p></h2>
+                            <h2>{Home.Description.Title} <span>{Text}</span> <p>|</p></h2>
 
                             <p>
-                                {setlanguage.Home.Description.Text} <br/>
+                                {Home.Description.Text} <br/>
                             </p>
 
                         </div>
